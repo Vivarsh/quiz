@@ -1,0 +1,103 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+	background-color: #f1f1f1;
+	text-align: center !important;
+}
+
+.header {
+	padding: 10px 50px;
+	/* 	background: #555; */
+	color: #f1f1f1;
+	z-index: 99999 !important;
+	height: 40px;
+	background-image: linear-gradient(to left, #248de4, #0c5397);
+}
+
+.logo {
+	margin-top: -53px;
+	padding: 8px;
+	font-size: 25px;
+	font-family: sans-serif;
+	position: absolute;
+	right: 100px;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	position: fixed;
+}
+
+h3 {
+	margin-top: 0;
+	padding-top: 10px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.quiz-width {
+	max-width: 70%;
+}
+
+.edu_info {
+	width: 30%;
+	position: fixed;
+	z-index: 1;
+	top: 100px;
+	right: 30px;
+	background: #eee;
+	overflow-x: hidden;
+	padding: 8px 0;
+	max-height: 100%;
+	bottom: 20px;
+}
+
+.edu_info p {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #192f60;
+	display: block;
+}
+
+@media screen and (max-height: 450px) {
+	.edu_info {
+		padding-top: 15px;
+	}
+	.edu_info p {
+		font-size: 18px;
+	}
+}
+
+.edu_info .but {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -15px;
+	margin-bottom: -30px;
+}
+
+.btn {
+	background-color: #0052cc;
+	border: solid 0.5px;
+	border-radius: 8px 8px 8px 8px;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	position: center;
+	color: white;
+	color: white
+}
